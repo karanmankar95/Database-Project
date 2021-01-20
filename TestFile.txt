@@ -1,0 +1,3 @@
+R := inputfromfile(sales1)
+S := inputfromfile(sales2)
+T := join(R, S, R.customerid = S.C)
